@@ -45,7 +45,9 @@ struct ProductCardView: View {
                         .foregroundStyle(Color.solRrimary)
                         .frame(width: 35, height: 35)
                         .padding(.trailing)
+                        .accessibilityIdentifier("add button \(product.name)")
                 }
+
             }
 
         }

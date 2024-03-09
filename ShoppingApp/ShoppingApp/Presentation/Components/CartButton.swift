@@ -21,6 +21,7 @@ struct CartButton: View {
                     .frame(width: 15, height: 15)
                     .background(Color.green)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+
             }
         }
     }

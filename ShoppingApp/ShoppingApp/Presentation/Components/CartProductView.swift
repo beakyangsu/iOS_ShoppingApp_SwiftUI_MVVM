@@ -30,11 +30,14 @@ struct CartProductView: View {
 
             Spacer()
 
-            Image(systemName: "trash")
-                .foregroundStyle(.red)
-                .onTapGesture {
-                    cartManager.removeFromCart(product: product)
-                }
+            Button {
+                cartManager.removeFromCart(product: product)
+            }label: {
+                Image(systemName: "trash")
+                    .foregroundStyle(.red)
+                    .accessibilityIdentifier("remove Product \(product.name)")
+            }
+            .accessibilityIdentifier("remove Product \(product.name)")
         }
         .padding(.horizontal) // HStack padding
         .background(Color.solSecondary)

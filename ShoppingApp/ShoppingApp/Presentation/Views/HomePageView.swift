@@ -42,9 +42,9 @@ struct HomePageView: View {
                                     NavigationLink(destination: {
                                         ProductDetailView(product: product)
                                     }, label: {
-                                        ProductCardView(product: product)
-                                            .environmentObject(cartManger)
+                                        ProductCardView(product: product) .environmentObject(cartManger)
                                     })
+                                    .accessibilityIdentifier("productDetail button \(product.name)")
                                 }
                             }
                             .padding(.leading)
@@ -75,13 +75,14 @@ struct AppBar: View {
                     Text("Shanghai, China")
                         .font(.title2)
                         .foregroundStyle(Color.gray)
-                    
+
                     Spacer()
-                    
+
                     NavigationLink(destination: {
                         CartView().environmentObject(cartManger)
                     }, label: {
                         CartButton(numberOfProducts: cartManger.products.count)
+
                     })
                 }
                 Text("Find The Most \nLuxurios")
@@ -91,9 +92,10 @@ struct AppBar: View {
                 + Text(" Furniture")
                     .font(.largeTitle.bold())
                     .foregroundStyle(Color.solRrimary)
+
             }
         }
-        .padding() 
+        .padding()
         //.environmentObject(CartManager())
         //NavigationStack 안으로 패딩을줌
     }

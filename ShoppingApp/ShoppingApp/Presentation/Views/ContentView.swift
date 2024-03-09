@@ -28,6 +28,7 @@ struct ContentView: View {
             TabView(selection: $currentTab) {
                 //currentTab == tag 일경우 보이는것
                 HomePageView()
+                    .environmentObject(CartManager())
                     .tag(Tab.Home)
                 Text("Search View")
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
@@ -47,6 +48,8 @@ struct ContentView: View {
                     .tag(Tab.Profile)
 
             }
+
+            //bottm tabBar
             HStack(spacing: 0) {
                 ForEach(Tab.allCases, id: \.rawValue) { tab in
                     TabButton(tab: tab)
@@ -96,6 +99,7 @@ extension ContentView {
                     //클릭시 위로 살짝 뜨게하는 효과
                 }
             })
+            .accessibilityIdentifier(tab.tabName)
         }
         .frame(height: 25)
         //이거 안하면 TabButton이 부모의 영역까지 차지할수있는만큼 다차지함

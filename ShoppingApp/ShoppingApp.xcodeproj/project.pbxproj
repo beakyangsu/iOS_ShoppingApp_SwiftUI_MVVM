@@ -33,6 +33,23 @@
 		DE0AD5C12B9B455F008E78EC /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5C02B9B455F008E78EC /* PaymentButton.swift */; };
 		DE0AD5C32B9B48DD008E78EC /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5C22B9B48DD008E78EC /* ProductDetailView.swift */; };
 		DE0AD5C52B9C3D00008E78EC /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5C42B9C3D00008E78EC /* ProductsView.swift */; };
+		DEC692C72B9C47AA00A7C776 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5AB2B9A0F32008E78EC /* Product.swift */; };
+		DEC692C82B9C47AA00A7C776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5642B99F7E0008E78EC /* ContentView.swift */; };
+		DEC692C92B9C47AA00A7C776 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5BA2B9B31A1008E78EC /* HomePageView.swift */; };
+		DEC692CA2B9C47AA00A7C776 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5BE2B9B423C008E78EC /* CartView.swift */; };
+		DEC692CB2B9C47AA00A7C776 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5C22B9B48DD008E78EC /* ProductDetailView.swift */; };
+		DEC692CC2B9C47AA00A7C776 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5C42B9C3D00008E78EC /* ProductsView.swift */; };
+		DEC692CD2B9C47AA00A7C776 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5B62B9B2781008E78EC /* CartManager.swift */; };
+		DEC692CE2B9C47AA00A7C776 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5952B9A0154008E78EC /* Tab.swift */; };
+		DEC692CF2B9C47AA00A7C776 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5AF2B9A10F1008E78EC /* ImageSliderView.swift */; };
+		DEC692D02B9C47AA00A7C776 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5B22B9B257E008E78EC /* ProductCardView.swift */; };
+		DEC692D12B9C47AA00A7C776 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5B42B9B258F008E78EC /* SearchView.swift */; };
+		DEC692D22B9C47AA00A7C776 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5B82B9B3094008E78EC /* CartButton.swift */; };
+		DEC692D32B9C47AA00A7C776 /* CartProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5BC2B9B406E008E78EC /* CartProductView.swift */; };
+		DEC692D42B9C47AA00A7C776 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5C02B9B455F008E78EC /* PaymentButton.swift */; };
+		DEC692D52B9C47AA00A7C776 /* Color+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD59E2B9A0649008E78EC /* Color+Extentions.swift */; };
+		DEC692D62B9C47AA00A7C776 /* View+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD5982B9A0319008E78EC /* View+Extentions.swift */; };
+		DEC692D72B9C47AA00A7C776 /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0AD59A2B9A03FC008E78EC /* MaterialEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -414,6 +431,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC692C72B9C47AA00A7C776 /* Product.swift in Sources */,
+				DEC692C82B9C47AA00A7C776 /* ContentView.swift in Sources */,
+				DEC692C92B9C47AA00A7C776 /* HomePageView.swift in Sources */,
+				DEC692CA2B9C47AA00A7C776 /* CartView.swift in Sources */,
+				DEC692CB2B9C47AA00A7C776 /* ProductDetailView.swift in Sources */,
+				DEC692CC2B9C47AA00A7C776 /* ProductsView.swift in Sources */,
+				DEC692CD2B9C47AA00A7C776 /* CartManager.swift in Sources */,
+				DEC692CE2B9C47AA00A7C776 /* Tab.swift in Sources */,
+				DEC692CF2B9C47AA00A7C776 /* ImageSliderView.swift in Sources */,
+				DEC692D02B9C47AA00A7C776 /* ProductCardView.swift in Sources */,
+				DEC692D12B9C47AA00A7C776 /* SearchView.swift in Sources */,
+				DEC692D22B9C47AA00A7C776 /* CartButton.swift in Sources */,
+				DEC692D32B9C47AA00A7C776 /* CartProductView.swift in Sources */,
+				DEC692D42B9C47AA00A7C776 /* PaymentButton.swift in Sources */,
+				DEC692D52B9C47AA00A7C776 /* Color+Extentions.swift in Sources */,
+				DEC692D62B9C47AA00A7C776 /* View+Extentions.swift in Sources */,
+				DEC692D72B9C47AA00A7C776 /* MaterialEffect.swift in Sources */,
 				DE0AD5852B99F7E1008E78EC /* ShoppingAppUITestsLaunchTests.swift in Sources */,
 				DE0AD5832B99F7E1008E78EC /* ShoppingAppUITests.swift in Sources */,
 			);
@@ -562,6 +596,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ShoppingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MW88QC3MD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -590,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ShoppingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MW88QC3MD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -617,6 +653,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88QC3MD7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -636,6 +673,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88QC3MD7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -654,6 +692,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88QC3MD7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.landmark.ShoppingAppUITests;
@@ -671,6 +710,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW88QC3MD7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.landmark.ShoppingAppUITests;
