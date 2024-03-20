@@ -5,8 +5,8 @@ Reference: https://www.youtube.com/watch?v=jp2PbpzdZ9A&t=4323s
 
 <img width="40%" src="https://github.com/beakyangsu/iOS_ShoppingApp_SwiftUI_MVVM/assets/12162598/d7c652a5-82eb-4a31-9a4b-07df99e7dc10">
 
-SwiftUI와 MVVM패턴을 활용하여 Shopping App Style 앱 디자인을 직접 만들어보는 프로젝트입니다. 현업에선 최소 iOS target이 14.0인 앱을 서비스하고있기때문에 Storyboard로만 프로젝트를 진행했었기 때문에 iOS 15.0 부터 사용할 수 있는 SwiftUI Skill을 쌓기 위해 시작한 프로젝트 입니다. 이를 통해 SwiftUI와 Storyboard를 비교 해보고 어떤 Framework가 현업에 더 유리할지 분석해봤습니다. 
-<span style="color:red"> red </span>
+❗**SwiftUI와 MVVM패턴**❗을 활용하여 Shopping App Style 앱 디자인을 직접 만들어보는 프로젝트입니다. 현업에선 최소 iOS target이 14.0인 앱을 서비스하고있기때문에 Storyboard로만 프로젝트를 진행했었기 때문에 iOS 15.0 부터 사용할 수 있는 SwiftUI Skill을 쌓기 위해 시작한 프로젝트 입니다. 이를 통해 ❗**SwiftUI와 Storyboard를 비교**❗ 해보고 어떤 Framework가 현업에 더 유리할지 분석해봤습니다. 
+
 
 # Skills
 <img alt="Static Badge" src="https://img.shields.io/badge/SwiftUI-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/Swift-green"> <img alt="Static Badge" src="https://img.shields.io/badge/MVVM-red"> <img alt="Static Badge" src="https://img.shields.io/badge/@EnvironmentObject-yellow">
