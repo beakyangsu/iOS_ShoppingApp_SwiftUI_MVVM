@@ -19,7 +19,7 @@ Reference: https://www.youtube.com/watch?v=jp2PbpzdZ9A&t=4323s
 # What I learn? 
 + ### SwitfUI vs Storyboard
   + Storyboard와 SwiftUI는 눈으로 보면서 UI를 구현할 수 있다는 점은 동일합니다.
-  + <u>Storyboard</u>의 AutoLayout과 ViewController와 연결된 @IBOutlet은 UI업데이트가 잦은경우 수정중 기존@IBOutlet의 연결이 끊어져 APP Crash가 발생하거나 새로운 UI Components 추가시 기존 View들의 계층구조가 깨져서 AutoLayout를 새로 작업해야하는 상황이 종종 발생했습니다.
+  + <ins>Storyboard</ins>의 AutoLayout과 ViewController와 연결된 @IBOutlet은 UI업데이트가 잦은경우 수정중 기존@IBOutlet의 연결이 끊어져 APP Crash가 발생하거나 새로운 UI Components 추가시 기존 View들의 계층구조가 깨져서 AutoLayout를 새로 작업해야하는 상황이 종종 발생했습니다.
   + 또한 여러사람이 함께하는 프로젝트의 경우 AutoLayout구성여부를 코드로 작성한 부분과 Storyboard로 기입한 부분을 한눈에 catch-up하기 어려운 부분이 있어 별도의 설명없이 다른 사람이 바로 이어서 개발을 하기에 어려움이 있었습니다.
   + 반면 SwiftUI는 UI에 변경이 있더라도 기존뷰의 계층구조를 깨지않고 손쉽게 추가가 가능하고, @State, @ObservedObject등을 이용해 View와 Object의 상태변화를 Binding할 수 있어,
     Object 변화에 따른 별도 UI Update 코드가 필요하지않아 코드가 훨씬 깔끔하고, 가독성이 좋았습니다.
