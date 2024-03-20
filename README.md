@@ -9,6 +9,7 @@ SwiftUI와 MVVM패턴을 활용하여 Shopping App Style 앱 디자인을 직접
 
 
 # Skills
+<img alt="Static Badge" src="https://img.shields.io/badge/SwiftUI-blue">
 ![badge](https://img.shields.io/badge/SwiftUI%2B-green)
 SwiftUI, Swift, MVVM, @EnvironmentObject
 
