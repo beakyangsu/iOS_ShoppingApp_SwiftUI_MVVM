@@ -9,6 +9,7 @@ SwiftUI와 MVVM패턴을 활용하여 Shopping App Style 앱 디자인을 직접
 
 
 # Skills
+![badge](https://img.shields.io/badge/SwiftUI%2B-green)
 SwiftUI, Swift, MVVM, @EnvironmentObject
 
 # What is My Role 
@@ -17,8 +18,7 @@ SwiftUI, Swift, MVVM, @EnvironmentObject
 
 
 # What I learn? 
-+ **SwiftUI**를 이용하여 Storyboard와 비교해보고, SwiftUI로 UI구현시 얼마나 빠르게 UI를 효과적으로 구성할 수 있는지 알 수 있었습니다.
-  + ### SwitfUI vs Storyboard
++ ### SwitfUI vs Storyboard
   + Storyboard와 SwiftUI는 눈으로 보면서 UI를 구현할 수 있다는 점은 동일했지만 Storyboard의 AutoLayout과 ViewController와 연결된 @IBOutlet은 UI업데이트가 잦은경우 수정
     중 기존@IBOutlet의 연결이 끊어져 APP Crash가 발생하거나 새로운 UI Components 추가시 기존 View들의 계층구조가 깨져서 AutoLayout를 새로 작업해야하는 상황이 종종 발생했습니다.
     또한 여러사람이 함께하는 프로젝트의 경우 AutoLayout구성여부를 코드로 작성한 부분과 Storyboard로 기입한 부분을 한눈에 catch-up하기 어려운 부분이 있어 별도의 설명없이 다른 사람이 바
@@ -26,7 +26,7 @@ SwiftUI, Swift, MVVM, @EnvironmentObject
   + 반면 SwiftUI는 UI에 변경이 있더라도 기존뷰의 계층구조를 깨지않고 손쉽게 추가가 가능하고, @State, @ObservedObject등을 이용해 View와 Object의 상태변화를 Binding할 수 있어,
     Object 변화에 따른 별도 UI Update 코드가 필요하지않아 코드가 훨씬 깔끔하고, 가독성이 좋았습니다.
 
-  + ## @EnvironmetObject vs @ObservedObject
++ ### @EnvironmetObject vs @ObservedObject
   + @EnvironmetObject와 @ObservedObject는 둘다 여러 뷰에서 공통 data를 공유한다는점에서 동일합니다.
   + @EnvironmetObject는 최상위 뷰에서 변수를 선언하고 이후 의존성 주입(Dependency Injection)하면 이후 별도의 코드 추가 없이 모든 하위뷰에서 동일한 변수에 접근할수있으므로
     여러 뷰에서 공통적으로 사용되는 경우 @EnvironmetObject는사용하는것이 유리합니다. 이는 이번 프로젝트에서 ViewModel 변수를 여러뷰로 의존성 주입할때 @EnvironmetObject를 사용
