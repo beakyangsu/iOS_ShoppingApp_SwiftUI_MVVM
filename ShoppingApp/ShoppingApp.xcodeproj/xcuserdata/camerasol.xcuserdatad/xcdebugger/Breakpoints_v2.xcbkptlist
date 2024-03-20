@@ -32,7 +32,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "test_CartManger_remove_productRemoved()"
+            landmarkName = "test_CartManger_productRemove_success()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

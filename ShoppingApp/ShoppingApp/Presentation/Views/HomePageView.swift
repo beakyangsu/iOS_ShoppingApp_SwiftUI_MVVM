@@ -79,7 +79,7 @@ struct AppBar: View {
                     Spacer()
 
                     NavigationLink(destination: {
-                        CartView().environmentObject(cartManger)
+                        CartView()//.environmentObject(cartManger)
                     }, label: {
                         CartButton(numberOfProducts: cartManger.products.count)
 
